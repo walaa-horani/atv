@@ -1,0 +1,2606 @@
+body{
+		font-family: 'Oswald', sans-serif ;
+        background: #eee;
+	}
+
+header{
+	border-top: 1px solid #ccc;
+	box-shadow: 2px 8px 9px 0 rgba(0,0,0,.4);
+  background: white;
+    height: 80px;
+    z-index: 9999999999;
+
+	
+}
+.menu ul li{
+  color: black;
+  font-weight: 600;
+ 
+ 
+}
+.menu ul li i{
+ 
+  margin-left: 5px;
+ 
+}
+.menu-1{
+    position: absolute;
+    width: 351px;
+    top: 72px;
+    background: white;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    padding: 10px 15px !important;
+    display: none;
+
+
+}
+.menu .menu-1 li{
+display: block;
+padding: 5px 0;
+text-transform: capitalize;
+}
+.menu-1  li a{
+	padding-top: 7px !important;
+	transition: 0.4s
+}
+.menu-1  li a:hover{
+	color: #eb6f2e;
+
+}
+.menu ul li:hover .menu-1{
+	display: block;
+}
+nav .logo{
+	width: 205px;
+	height: 83px;
+
+    position: absolute;
+    top: 0px;
+
+	   
+}
+.logo img{
+	width: 100px
+}
+.menu{
+	display: flex;
+   
+    justify-content: center;
+    margin-top: 13px;
+    margin-left: 212px;
+    
+}
+
+.menu ul{
+	padding: 0
+}
+.menu ul li{
+	display: inline-block;
+	    margin-right: 10px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.menu ul li a{
+color: black;
+font-weight: 600;
+text-decoration: none !important;
+}
+.menu > ul > li > a:hover{
+	    border-bottom: 5px solid #ff6400;
+}
+.menu ul li a.active{
+	border-bottom: 5px solid #ff6400
+}
+.menu ul li  i{
+	cursor: pointer;
+	font-size: 12px;
+
+}
+.canlı-yayın{
+margin-left: 20px;
+cursor: pointer;
+}
+.canlı-yayın i{
+	    width: 21px;
+        height: 27px;
+    margin-right: 5px;
+    background-color: #eb6f2e;
+    float: left;
+    font-size: 10px;
+    text-align: center;
+    line-height: 28px;
+    color: white;
+    margin: 0;
+    transition: 0.4s
+}
+
+
+.canlı-yayın span{
+	background: black;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: white;
+	        padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 12px;
+        transition: 0.4s
+
+}
+nav .search{
+	margin-left: 15px;
+	font-size: 20px;
+	color: #eb6f2e;
+	margin-top: -4px;
+	cursor: pointer;
+  position: relative;
+
+}
+
+.social{
+	    
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    justify-content: center;
+}
+.menu-1 {
+	overflow: hidden;
+	z-index: 999999999999
+
+}
+.menu-1 .atv-img{
+	      position: absolute;
+    right: -90px;
+    width: 280px;
+    top: 50px;
+  
+
+}
+.big-img{
+	    position: absolute;
+    right: 0;
+    width: 150px;
+  
+    bottom: 0;
+    
+}
+
+.ziraat{
+	    margin-right: 50px;
+	    
+}
+@keyframes color {
+  0% {
+   color: black;
+  }
+  100% {
+    color: #eb6f2e;
+  }
+}
+.ziraat a {
+	text-transform: uppercase;
+	letter-spacing: 0;
+	font-size: 13px;
+	font-weight: 600;
+font-family: 'Oswald', sans-serif;
+color: black;
+animation: color 3s infinite;
+
+
+}
+.social-media{
+	position: relative;
+}
+.social-media:before{
+	    position: absolute;
+    left: -20px;
+    width: 1px;
+    height: 100%;
+    background: orange;
+    content: "";
+}
+.social-media i{
+	margin-right: 15px;
+	color: #b2b2b2;
+	transition: 0.4s;
+	cursor: pointer;
+}
+.social-media .blue:hover{
+	color: darkblue
+}
+.social-media .lightblue:hover{
+	color: #62B1F6
+}
+.social-media .inst:hover{
+	color: darkred
+}
+.social-media .red:hover{
+	color: red
+}
+.social-media .orange:hover{
+	color: #eb6f2e
+}
+.yeni{
+	color: #eb6f2e;
+	font-weight: 600
+}
+.arşiv{
+	color: #eb6f2e !important;
+	font-weight: 600;
+	position: relative;
+
+	font-size: 13px;
+}
+.arşiv:before{
+	position: absolute;
+	bottom:-2px;
+	width: 53px;
+	height: 2px;
+	background: #eb6f2e;
+	content: ""
+}
+.position{
+  display: flex;
+  position: relative;
+}
+.flex{
+  display: inline-flex;
+}
+.search-bar {
+      position: absolute;
+    right: 0;
+    width: 347px;
+    z-index: 9999;
+    top: 45px;
+    display: none;
+    
+}
+.search-bar input{
+	    width: 300px;
+}
+.search-bar a{
+	    background: #eb6f2e;
+    color: white;
+        height: 27px;
+        font-family: 'Oswald', sans-serif;
+            width: 45px;
+    text-align: center;
+}
+::placeholder{
+	color: #ccc;
+	font-family: 'Oswald', sans-serif;
+
+	}
+	.animate__animated a{
+		width: 64px;
+    margin-left: -4px;
+    padding: 3px 8px;
+	}
+.slider{
+	
+      margin: 15px 0;
+}
+.carousel-indicators{
+	width: 100%;
+	margin-right: 0 !important;
+    margin-left: 0 !important;
+    bottom: -15px !important
+   
+}
+.carousel-indicators li{
+	background: #eb6f2e;
+	width: 135px;
+    height: 4px;
+     border-top: none !important;
+     border-bottom: none !important
+
+}
+.carousel-control-prev span, .carousel-control-next span{
+	width: 50px;
+    height: 70px;
+    
+}
+.atv-bugun{
+	border-top: 3px solid #ece7df;
+    background: #333;
+    position: relative;
+    height: 115px;
+    margin-bottom: 20px;
+    position: relative;
+
+
+}
+.before{
+  background-color: #ece7df;
+   width: 100%;
+   height: 100%;
+
+}
+.atv-logo{
+
+    height: 115px;
+    line-height: 113px;
+    background: url(img/logo.transparent.png) no-repeat left 50%;
+    background-size: 70px;
+    padding-left: 72px;
+    margin-right: 12px;
+    font-size: 1.188em;
+
+}
+.atv-title{
+	color: white
+}
+.item{
+	display: flex;
+	    width: 250px;
+	    position: relative;
+}
+.item:before{
+	    position: absolute;
+    right: -4px;
+    background: #ccc;
+    height: 70%;
+    width: 1px;
+    content: "";
+    top: 24px;
+}
+.atv-slider{
+    margin-top: -127px;
+    margin-left: 175px;
+}
+.item-text{
+	color: white
+
+}
+.item-text span{
+	font-size: 40px
+}
+.item-text small{
+	font-size: 20px
+}
+.item-text p{
+	font-size: 18px;
+	text-transform: uppercase;
+      color: white;
+}
+.item-img{
+	width: 162px
+}
+ .atv-bugun .owl-carousel .owl-item img{
+	width: 100px !important
+}
+.actors .owl-nav{
+	    position: absolute;
+    right: -25px;
+        color: white !important;
+       
+
+}
+ .atv-bugun .owl-prev{
+border: none;
+	    position: absolute;
+    right: -25px;
+    outline: none !important;
+    top: -65px;
+}
+ .atv-bugun .owl-nav{
+      position: relative;
+      color: white;
+
+ }
+ 
+        .series{
+        	background: #eee;
+        	padding-bottom: 30px
+        }
+
+.series  .card {
+	    width: 307px;
+    height: auto;
+    border: none;
+    
+    position: relative;
+    transition: 0.4s;
+    margin-bottom: 30px
+
+
+}
+
+.card:hover{
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.2)
+}
+
+.card-flex:hover{
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.2)
+}
+
+.card:hover{
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.2)
+}
+.card .card-info{
+	    margin-top: -20px;
+    z-index: 99999;
+    padding: 0 10px;
+    position: relative;
+}
+
+.card .card-info span{
+	font-size: 16px;
+	background: rgba(0,0,0,0.7);
+	color: white;
+	padding: 2px 6px
+}
+.col-block span{
+	font-size: 16px;
+	background: rgba(0,0,0,0.7);
+	color: white;
+	padding: 2px 6px
+}
+.card .card-info h6{
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-top: 5px
+
+}
+.card  small{
+	    font-weight: 400;
+    position: absolute;
+    bottom: 11px;
+    right: 19px;
+    font-size: 16px;
+}
+   
+.card{
+	position: relative;
+}
+.img-card span{
+  z-index: 99999999999999999;
+  position: absolute;
+}
+
+.mobile-box{
+      display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #1d3047;
+    padding: 10px 0
+}
+.güncel-ph img{
+  width: 100%
+}
+.img-logo img{
+      position: absolute;
+    top: 0;
+    width: 75px;
+        z-index: 999;
+}
+.side-menu{
+      position: fixed;
+    top: 53px;
+    left: 0;
+    background: white;
+}
+.side-menu ul li a{
+  color: black
+}
+.justify{
+	display: flex;
+}
+
+ .card-info{
+position: relative;
+}
+
+.card-info{
+	transition: 0.4s;
+}
+.card{
+	position: relative;
+	cursor: pointer;
+
+}
+.card-flex{
+	position: relative;
+	cursor: pointer;
+	width:100%;
+	transition: 0.4s;
+		    display: flex;
+       
+    align-items: center;
+    background: white;
+    transition: 0.4s;
+    overflow: hidden;
+    margin-top: 30px;
+  
+ 
+
+}
+.card-flex .img-card img{
+
+}
+
+.hide-card{
+  display: none;
+}
+ .img-card:after{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 40px;
+  height: 40px;
+  content: "";
+  background: url("https://iatv.tmgrup.com.tr/site/v1/i/play.svg");
+  background-repeat: no-repeat;
+}
+.card small{
+    bottom: 38px;
+}
+
+.card:after{
+	position: absolute;
+	bottom: 0;
+	background-color: #eb6f2e;
+	width: 0;
+	height: 4px;
+	right: 0;
+	content: "";
+	transition: 0.4s;
+
+}
+.thumbing{
+  width: 142px
+}
+.card:hover:after{
+	position: absolute;
+	bottom: 0;
+	background-color: #eb6f2e;
+	width: 100%;
+	height: 4px;
+	content: "";
+	transition: 0.4s;
+	
+}
+.card-flex:after{
+	position: absolute;
+	bottom: 0;
+	background-color: #eb6f2e;
+	width: 0;
+	height: 4px;
+	content: "";
+	right: 0;
+	transition: 0.4s
+}
+.card-flex:hover:after{
+	position: absolute;
+	bottom: 0;
+	background-color: #eb6f2e;
+	width: 100%;
+	height: 4px;
+	content: "";
+}
+.card-info:hover:before{
+	background: #eb6f2e
+}
+
+
+.mobile-menu{
+     background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  
+    height: 60px;
+ z-index: 999999999999;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  display: none;
+}
+
+
+.card-flex .card-info{
+	    padding: 0 5px;
+	    z-index: 9999999
+}
+
+.hide-card{
+  display: none;
+}
+.card-flex .card-info span{
+	font-size: 16px;
+	background: rgba(0,0,0,0.7);
+	color: white;
+	padding: 2px 6px
+}
+
+.card-flex .card-info h6{
+	  font-size: 30px;
+    text-transform: capitalize;
+    margin-top: 5px;
+    margin-left: -25px
+}
+.card-flex small{
+	
+	    font-size: 80%;
+    font-weight: 400;
+    position: absolute;
+    bottom: 11px;
+    right: 20px;
+    font-size: 16px
+}
+
+.series .img-card{
+position: relative;
+
+
+}
+
+.series a{
+	color: black;
+	text-decoration: none !important;
+}
+
+
+.series-text{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+	padding: 15px
+}
+.series-text .text{
+	width: 80%
+}
+.milyoner-img{
+	padding: 10px
+}
+.text-video{
+	display: inline-flex;
+	margin-bottom: 10px;
+	position: relative;
+	overflow: hidden;
+	
+}
+.classic-diziler .overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width:0;
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+	content: "";
+	transition: 0.4s;
+	display: none;
+	overflow: hidden;
+	transition: 0.4s !important
+}
+.text-video:hover .overlay{
+	width: 100%;
+	display: block;
+	
+
+}
+ .overlay p{
+	color: white;
+	font-size: 21px;
+	padding: 7px;
+	text-align: center;
+}
+.classic img:hover .overlay{
+	width: 100%;
+	
+}
+.text-video a{
+	position: relative;
+}
+.text-video a:before{
+	position: absolute;
+	top: 50%;
+	left: 51%;
+	transform: translate(-50%,-50%);
+	background: url("https://iatv.tmgrup.com.tr/site/v1/i/play.svg");
+	content: "";
+	width: 20px;
+	height: 20px
+}
+.second-series .card{
+  margin: 30px auto
+}
+.flex-img{
+  display: flex;
+}
+#textChange2{
+  color: #a1a1a1;
+  font-size: 21px;
+  margin-bottom: 20px
+
+}
+.overlay-content img{
+  margin-bottom: 20px
+}
+
+.live-img-box{
+  position: relative;
+}
+.live-img-box .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  cursor: pointer;
+  display: none;
+  transition: 0.3s
+}
+.img-small{
+      margin-top: -20px;
+}
+.live{
+  margin-top: 50px;
+  background: white
+}
+.live-img-box:hover .overlay{
+  display: block;
+}
+.big-img2{
+      float: right;
+}
+.video-footer{
+  margin: 20px auto;
+    width: 100%;
+        text-align: center;
+}
+.video-footer span{
+   font-size: 17px;
+    background: #4d4c49;
+    height: 34px;
+    line-height: 34px;
+    color: #fff;
+  width: 100%;
+    padding: 5px 15px;
+}
+.series-info{
+	margin:40px 0
+}
+.second-series a{
+	color: black;
+	text-decoration: none;
+}
+.card .card-info  h6{
+	margin-top: 30px
+}
+.second-series .card{
+	width: 273px;
+	position: relative;
+  height: 288px ;
+}
+ .img-card:before{
+	    width: 200px;
+}
+.card-flex .img-card{
+  position: relative;
+}
+.card-flex .img-card:before{
+position: absolute;
+right: -1px;
+height: 100%;
+width: 20%;
+background: white;
+content: "";
+top:70px;
+}
+.second-series .card img{
+	width: 100%;
+	
+}
+.second-series{
+	background: #eee;
+	padding: 30px 0
+}
+.classic{
+	display: flex;
+	align-items: center;
+	background-color: white;
+	padding-top: 10px;
+  position: relative;
+      margin-top: 30px
+}
+.classic-info{
+	display: flex;
+	align-items: center;
+	margin-left: 20px;
+	justify-content: space-between;
+
+}
+.classic-info h4{
+	text-transform: capitalize;
+font-size: 20px
+}
+.classic-info h6{
+	margin-left: 33px;
+   position: relative;
+    width: 89px;
+    line-height: 24px;
+   
+        margin-right: 10px;
+  
+    color: #666;
+ 
+   font-size: 17px
+}
+.classic-info h6:before{
+	position: absolute;
+    left: -30px;
+    background-color: #ccc;
+    height: 65px;
+    width: 2px;
+    content: "";
+}
+.hide-col{
+  display: none;
+}
+.show-col{
+  display: block;
+}
+.klasik-img{
+	position: relative;
+
+	    width: auto;
+          margin-left: 16px;
+}
+.eşkiya-cards .card{
+  margin-bottom: 30px
+}
+.atv-bugun .owl-next{
+      position: absolute;
+    color: white;
+    right: -50px;
+    top: -65px;
+}
+ 
+.klasik-img img{
+  width: 100%;
+  cursor: pointer;
+}
+.klasik-img:before{
+right: -1px;
+    background-color: white;
+    position: absolute;
+    content: "";
+        height: 298px;
+    width: 65px;
+    top: 45px;
+}
+.klasik-img:hover{
+background-color: white;
+opacity: 0.4
+
+    	}
+  .klasik-img:hover h4 h6{
+color: white;
+opacity: 0.4
+
+    	}
+    	.footer{
+    		background-color: #1e1e1e;
+    		padding: 15px 0;
+    	}
+    	.sign-in-box{
+
+    display: flex;
+    align-items: center;
+  	}
+
+  .footer-menu ul{
+  	padding: 0;
+  	list-style: none;
+  }
+  .footer-menu ul li a{
+  	  	color: #8f8f8f;
+  	  	transition: 0.4s
+
+  }
+    .footer-menu ul li a:hover{
+    	color: #ff6400
+    }
+  .signin-box{
+margin-bottom: 45px;
+display: flex;
+width: 100%
+  }
+  .signin{
+  	float: left;
+  	width:289px
+  	
+  }
+  .signin a{
+  	color: white;
+  	
+  }
+
+   .signin a:not(:first-of-type){
+   	margin-right: 35px
+   }
+  .form-input {
+  	position: relative;
+
+    float: right;
+    width: 100%;
+
+  }
+  .row-2{
+		margin: auto;
+	}
+  .classic .row{
+    width: 100%
+    }
+    .form-input input{
+      padding: 5px 7px;
+position: relative;
+    width: 100%;
+  }
+
+
+    }
+     ::placeholder{
+    	color: #8f8f8f
+    }
+  .form-input i{
+  	position: absolute;
+  	top: 10px;
+  	right: 28px
+  }
+  .first{
+  	position: relative;
+        margin-right: 36px;
+  }
+  .first:before{
+  	position: absolute;
+  	top: 2px;
+    right: -21px;
+  	content: "";
+  	width: 2px;
+  	height: 100%;
+  	background-color: #fff
+  }
+    .menu-title a{
+    	color: white !important;
+    	font-size: 17px;
+    	transition: 0.4s
+    
+   
+        }
+         .menu-title a:hover{
+         	color: #ff6400 !important
+         }
+         .menu-title{
+         	margin-bottom: 6px
+         }
+        .footer-menu{
+        	margin-top: 25px;
+
+        }
+        .orange a{
+        	color: #ff6400 !important;
+        	font-size: 17px;
+        	transition: 0.4s
+        }
+         .orange a:hover{
+         	color: white !important
+         }
+        .small-col p{
+        	color: white
+        }
+        .footer h6{
+        	color: white;
+        	font-size: 20px;
+        	text-transform: capitalize;
+        }
+      .details{
+      	display: flex;
+      	align-items: center;
+
+      }
+      
+       .series-details p{
+       	width: 130px;
+       	font-size: 14px
+       }
+      
+ 
+ .footer strong{
+ 	color: #8f8f8f;
+
+ }
+ .row-1{
+ 	margin-top: 24px
+ }
+a{
+	text-decoration: none !important;
+}
+
+.mobile-footer{
+	display: none;
+}
+
+.menu-bar .closeMenu{
+  display: none ;
+}
+.menu2 ul{
+  list-style: none;
+
+}
+.menu2 ul li {
+  margin-top: 30px
+}
+.menu2 ul li i{
+  position: absolute;
+  right: 45px
+}
+.menu2 ul li ul li{
+  margin-top: 15px !important;
+  text-transform: capitalize;
+}
+.side-menu .closeMenu{
+      position: absolute;
+   
+       position: absolute;
+        left: 40px;
+    top: -35px;
+}
+.menu2 ul li .side-menu-1{
+  display: none;
+}
+.menu2 ul li:hover .side-menu-1{
+  display: block;
+}
+.menu2 ul li .side-menu-2{
+  display: none;
+}
+.menu2 ul li:hover .side-menu-2{
+  display: block;
+}
+.side-menu{
+         left: -200%;
+    height: 100vh;
+    width: 270px;
+    position: absolute;
+    transition: 0.3s
+}
+.side-menu-2{
+  display: none;
+}
+.side-menu img{
+      position: absolute;
+     right: -10px;
+     top: 150px
+}
+.side-menu .social2{
+      text-align: center;
+    margin-top: 170px;
+}
+.side-menu .social2 a{
+  color: black;
+ text-transform: capitalize;
+}
+.menu2 ul li ul{
+      position: absolute;
+    right: -182px;
+    background: white;
+    top: 0;
+    padding: 15px 26px 15px;
+}
+.klasik-img{
+      width: 520px;
+}
+
+.live-text h1{
+  transition: 0.5s
+}
+.live-text h1:hover{
+  color: #ff6502
+}
+/*------------------------------------eşkiya----------------------------*/
+.eşkiya-date{
+  margin-top: 50px;
+
+}
+.img-card:before{
+  position: absolute;
+  bottom: -1px;
+  background: white;
+  width: 50%;
+  height: 40px;
+  content: ""
+}
+.img-card{
+  position: relative;
+}
+
+.date-text{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  justify-content: center;
+
+}
+.eşkiya-cards .card img{
+  width: 100%
+}
+.eşkiya-cards .card .card-info{
+  height: 135px
+}
+.date-text h3{
+  margin-right: 30px
+}
+.date-text strong{
+  color: #ff6400;
+  font-size: 20px;
+  margin-right: 10px
+}
+.date-text span{
+  font-weight: 600
+}
+.directions span{
+  margin-right: 10px;
+  font-weight: 600
+}
+.directions  i{
+  color: #ff6400
+}
+.directions a{
+  color: black
+}
+.abone{
+  margin-top: 50px;
+      margin-bottom: 30px;
+}
+.abone i{
+  padding: 5px 30px;
+  text-align: center;
+  color: white
+}
+.abone .blue{
+  background-color: #3b5998
+}
+.abone .turk{
+  background-color: #09aaff
+}
+.abone .pink{
+  background-color: #ff199f
+}
+.abone .black{
+  background-color:black
+}
+.abone .gri{
+  background-color: #b5b5b5
+}
+.abone .green{
+  background-color: #68ffd1
+}
+.small-eşkiya{
+  margin-top: 58px;
+}
+.small-eşkiya span{
+  color: #a1a1a1;
+  font-weight: 500
+}
+.eşkiya-title h2{
+  position: relative;
+  color: #ff6502;
+  margin-left: 40px;
+  font-weight: 600;
+  margin-bottom: 20px
+}
+.eşkiya-title h2:before{
+  position: absolute;
+  left: -20px;
+  background-color: #ff6502;
+  height: 100%;
+  width: 1px;
+  content: ""
+}
+.story h6{
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 22px
+}
+.story p{
+  font-size: 18px
+}
+.black-menu{
+  background-color: black
+}
+.black-menu ul{
+  list-style: none;
+  text-align: center;
+}
+.black-menu ul li{
+  padding: 10px 25px;
+  display: inline-block;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.black-menu ul li a{
+  color: white;
+  transition: 0.5s
+}
+.black-menu ul li a:hover{
+  color: #ff6400
+}
+.options{
+  background-color: rgb(0,0,0,0.8);
+  padding: 10px;
+  position: relative;
+      height: auto;
+    margin-bottom: 30px;
+}
+.options .row{
+  justify-content: space-around;
+}
+.options select{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  cursor:  pointer;
+  position: relative;
+
+}
+.actors .owl-stage-outer{
+
+    height: 235px;
+
+}
+.options select option {
+color: grey;
+transition: 0.4s 0;
+}
+.options select:hover{
+  color: #ff6400 !important;
+  background-color: none;
+
+}
+.izle{
+  color: white;
+  width: 75px;
+    height: 75px;
+    border: 0;
+    background-color: #ff6400;
+    color: #fff;
+    text-align: center;
+    line-height: 75px;
+    border-radius: 5px 50% 50%;
+      font-size: 35px;
+      margin-top: -21px;
+}
+
+.eşkiya-cards a{
+  color: black
+}
+.card .card-info h6{
+  font-size: 20px;
+  color: grey
+}
+.card-flex .card-info h6{
+      font-size: 20px;
+          color: grey;
+}
+
+
+.classic .overlay p{
+  font-size: 13px
+}
+
+ .classic-diziler .img-box img{
+  margin-right: 2px
+}
+ .klasik-img:before{
+      height: 299px;
+}
+
+ .classic-diziler{
+      position: absolute;
+    bottom: 0;
+    right: 30px;
+      cursor: pointer;
+}
+
+
+
+.eşkiya-casslic .klasik-img {
+  position: relative;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.eşkiya-casslic .klasik-img img :hover {
+  opacity: 0.3
+}
+.eşkiya-casslic .klasik-img:after{
+  position: absolute;
+  background: url("https://iatv.tmgrup.com.tr/site/v1/i/play.svg");
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  content: "";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: .5;
+  cursor: pointer;
+}
+.actors{
+  margin-top: 30px;
+  background-color: white;
+  padding: 40px 0
+}
+.full-row-cards{
+  margin-top: 30px
+}
+
+.actors .owl-item{
+      width: auto !important;
+}
+.actors .item{
+  margin-right: 15px !important;
+  border-radius: 0 10% 0 10%;
+  position: relative;
+}
+.actors .item h6{
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  color: white;
+  text-shadow: 2px 1px black;
+  text-transform: capitalize;
+  font-size: 18px
+}
+.actors .owl-carousel .owl-item img{
+  margin: auto;
+  width: 215px !important;
+}
+.actors .item:before{
+  width: 0
+}
+.actors .item0{
+  background-color: #1e1e1e;
+
+
+}
+.actors .item1{
+   background:linear-gradient(90deg,#e4e2df 0,#fbfbfb)
+}
+.actors .item2{
+  background:  #73cbb2
+}
+.actors .item3{
+  background:linear-gradient(90deg,#e4e2df 0,#fbfbfb);
+
+}
+.actors .item4{
+  background: #1e1e1e
+}
+.actors .item5{
+  background-color: #73cbb2
+}
+.actors .item6{
+  background: linear-gradient(90deg,#e4e2df 0,#fbfbfb)
+}
+.actors .item7{
+  background-color: #1e1e1e
+}
+.actors .item8{
+  background-color: #73cbb2
+}
+.actors .owl-nav {
+    position: relative; ;
+      
+    }
+  .actors  .owl-prev{
+    position: absolute;
+    left: 0;
+        top: -150px;
+       font-size: 50px !important;
+       outline: none !important;
+
+  }
+  .actors .owl-next{
+    position: absolute;
+    right: 45px;
+     top: -150px;
+       font-size: 50px !important;
+       outline: none !important;
+  }
+
+   header .logo{
+  z-index: 9999999999999999999;
+    }
+  
+
+.actors .owl-prev{
+position: absolute  ;
+    right: 60% !important;
+}
+.actors .fa-chevron-right{
+color: #ff6400
+}
+.actors .fa-chevron-left{
+color: #ff6400
+}
+
+/*------------------------------------------------------osman-------------------------*/
+.osman-title{
+  display: flex;
+  align-items: center;
+ 
+}
+.osman-title h2{
+      margin-left: 150px;
+}
+.osman-title h1{
+  position: relative;
+}
+.osman-title h1:before{
+  position: absolute;
+ right: -85px;
+  background-color: #ff6400;
+  width: 2px;
+  height: 100%;
+  content: ""
+}
+
+/*-------------------------------milyoner----------------------------*/
+.milyoner ul li.active {
+border-bottom: 4px solid #ff6400
+}
+.milyoner ul li a{
+  padding: 6px 25px
+}
+.body-menu ul {
+  list-style: none;
+}
+.body-menu ul li a{
+  color: #a1a1a1;
+  font-weight: 500;
+  font-size: 18px
+}
+.body-menu ul li h3{
+      color: #1e1e1e;
+    font-size: 2.063em;
+    margin-top: 12px;
+    display: block;
+}
+.body-menu ul li h6{
+  font-size: 1.563em;
+    color: #ff6400;
+}
+.form-info strong{
+  display: block;
+  margin-top: 10px
+}
+
+.form-app .form-control{
+  height: 30px !important;
+  margin-top: 10px
+}
+.form-app .table tr td input{
+width: 100%;
+   border: 1px solid #ccc;
+   outline: none !important ;
+}
+input[type="radio"]{
+  width: 30px !important;
+}
+.form-app textarea{
+  width: 100%;
+  border: 1px solid #ccc;
+   outline: none  ;
+}
+
+.metin{
+  color: #ff6416
+}
+.gonder{
+  text-align: center;
+
+  margin: auto;
+
+}
+#submit{
+  width: auto;
+    margin: 0;
+    padding: 0 1.5em;
+    background: #1e1e1e;
+    color: #fff;
+    font-size: 1.188em;
+    height: 1.8em;
+    line-height: 1.8em;
+    border-radius: 0 1em;
+    border: 0;
+}
+label{
+  text-transform: capitalize;
+}
+td{
+   text-transform: capitalize;
+}
+.error{
+  color: red;
+}
+.small{
+      bottom: 10px !important;
+      position: absolute;
+      color: black
+}
+#form2{
+  width: 420px;
+      top: 0;
+    position: absolute;
+    display: none;
+
+ 
+}
+.glex{
+  display: flex;
+}
+
+.application{
+  position: relative;
+}
+.yarışma2{
+  display: none;
+}
+#form1{
+  margin-bottom: 30px
+}
+.milyoner-card .card{
+  height: 320px
+}
+/*-----------------------------------çukurova---------------------*/
+.bzç-card{
+  margin-top: 55px
+}
+
+/*-----------------------------------------arşiv--------------------*/
+.arşiv-menu ul li{
+  padding: 10px;
+ position: relative;
+}
+.arşiv-menu ul li:after{
+  content: "";
+  position: absolute;
+  background: #eb6f2e;
+  right: 0;
+width: 1px;
+  height: 30px
+
+}
+.arşiv-menu ul{
+  position: relative;
+  margin-bottom: 0 !important
+}
+.arşiv-menu ul:before{
+  content: "Tüm Diziler";
+  left: 0;
+  color: white
+}
+.white-menu{
+  background: white;
+  box-shadow: 3px 5px 9px 0 rgba(0,0,0,.16);
+}
+.white-menu ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+.white-menu ul li{
+  display: inline-block;
+ color: black ;
+  font-size: 22px;
+   padding: 0px 30px;
+   cursor: pointer;
+
+}
+
+.white-menu ul li.active{
+  border-bottom: 4px solid #ff6400;
+  color: #ff6400 !important
+}
+.güncel-box{
+  margin-bottom: 30px;
+  display: flex;
+   align-items: center;
+ justify-content: center;
+ 
+   background: white;
+   transition: 0.5s;
+   cursor: pointer;
+   position: relative;
+}
+.güncel-box:hover{
+  background: #eb6f2e
+}
+.güncel-ph{
+  overflow: hidden;
+}
+.güncel-ph img{
+  transition: 0.4s;
+  
+}
+.güncel-ph img:hover{
+transform: scale(1.1);
+}
+
+.güncel-info {
+width: 250px
+}
+.güncel-info h6{
+  font-size: 30px;
+  padding: 20px;
+  text-transform: capitalize;
+  color: white
+}
+.diziler-list .time{
+     position: absolute;
+    left: 50%;
+    bottom: 17px;
+    display: flex;
+    background: white;
+    width: 50%;
+    text-align: center;
+    float: right;
+        box-shadow: 3px 5px 9px 0 rgba(0,0,0,.16);
+        padding: 5px 15px;
+}
+
+.time span{
+  color: #eb6f2e;
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 20px
+}
+.time h6{
+   font-size: 20px;
+   margin: 2px 0;
+   padding: 0
+}
+.diziler-box{
+  position: relative;
+}
+.diziler-list{
+  position: relative;
+}
+.klasik-diziler{
+
+  display: none;
+}
+
+/*--------------------------------yayın-akışı---------------------------------*/
+.yayın-akışı nav ul a{
+  color: white;
+  padding: 20px 25px;
+  margin-top: 20px;
+  text-transform: capitalize;
+  transition: 0.5s;
+  font-size: 25px;
+
+}
+.yayın-akışı nav ul a:hover{
+    text-shadow:1px 1px 20px #fff, 1px 1px 20px #fff;
+}
+.yayın-akışı nav ul{
+  padding: 20px 0
+}
+.yayın-akışı nav ul a.active{
+  background: white;
+  color: black;
+  padding: 35px;
+   font-size: 30px;
+ 
+}
+.yerli-sinema-img{
+  margin-top: 30px;
+  position: relative;
+  display: block;
+ text-align: center;
+
+
+  overflow:hidden;
+
+}
+.yerli-sinema-img img:hover{
+  transform: scale(1.1);
+}
+.yerli-sinema-img img{
+transition: 0.5s;
+  cursor: pointer;
+}
+.yerli-sinema-img:before{
+  background: url("https://iatv.tmgrup.com.tr/site/v1/i/play.svg");
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  content: ""
+}
+.bugun-info{
+       
+  
+    background: white;
+    box-shadow: 3px 5px 9px 0 rgba(0,0,0,.16);
+    
+       padding: 0px 71px 0 459px;
+    margin: -15px -400px;
+    position: absolute;
+}
+.menu-carousel{
+  background: rgb(0,0,0,0.9); 
+  height: 60px;
+  display: none;
+}
+.menu-carousel .item a.active{
+     background: white;
+    padding: 7px 12px;
+    color: black;
+}
+
+.menu-carousel .item a{
+  color: white ;
+  margin-top:10px
+}
+.bugun-info a{
+  font-size: 24px;
+  text-transform: capitalize;
+}
+.yerli-sinema{
+  position: relative;
+}
+.yerli-sinema-img img{
+  width: 100%
+}
+.all-1 small{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.bugun-clock span{
+  margin-left: 10px;
+  color: #ff6502
+}
+.bugun-clock{
+  margin-top: 50px;
+  position: relative;
+      margin-bottom: 20px;
+          text-align: left;
+          
+          font-size: 24px;
+              display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bugun-clock:before{
+  position: absolute;
+  background: url("https://iatv.tmgrup.com.tr/site/v1/i/clock.svg");
+  width: 30px;
+  height: 30px;
+  content: "";
+  left: 300px;
+  bottom: 0px;
+  z-index: 9999999999
+}
+.all-1 .details{
+       background: white;
+    color: #ff6502;
+    display: inline-block;
+    box-shadow: 3px 5px 9px 0 rgba(0,0,0,.16);
+    padding: 10px 14px 9px 317px;
+    margin-left: -100%;
+    font-size: 20px
+  
+   
+}
+.times-details{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+  cursor: pointer;
+}
+.series-times{
+  background: white;
+  margin-top: 30px
+}
+.times-details img{
+  padding: 0 20px;
+  transition: 0.5s
+}
+.times-details img:hover{
+  transform: scale(1.1);
+}
+.times-details span{
+  color: #ff6400;
+  font-weight: 600;
+  font-size: 24px
+}
+.times-details h6{
+  font-size: 24px;
+  width: 146px
+}
+.content .all-1{
+  display: none;
+}
+.content .active{
+  display: block;
+}
+
+/*------------------------------------atv-gün-ortası------------------------*/
+.atv-gün-ortası nav ul li a.active{
+color: #ff6400;
+position: relative;
+}
+.atv-gün-ortası nav ul li a.active:before{
+  position: absolute;
+  bottom: -10px;
+  width: 10px;
+  height: 10px;
+  content: "";
+    left: calc(50% - 6px);
+  border-style: solid;
+    border-width: 0 5.5px 7px;
+    border-color: transparent transparent #fff;
+}
+.atv-ortası-img{
+  overflow: hidden;
+
+}
+.atv-ortası-img img{
+  transition: 0.5s;
+   cursor: pointer;
+}
+.atv-ortası-info{
+  margin-bottom: 40px
+}
+.atv-ortası-img img:hover{
+  transform: scale(1.1);
+}
+.atv-ortası-info h6{
+  margin-top: 20px;
+  font-size: 30px
+}
+.atv-ortası-info h4{
+
+    font-size: 25px;
+    color: #ff6502;
+    margin: 30px 0;
+}
+.atv-ortası-info p{
+  font-size: 24px;
+
+}
+.directions-details{
+  text-transform: capitalize;
+}
+.atv-cards .img-card img{
+  width: 100%
+}
+.atv-cards .card{
+  margin-top: 30px !important;
+      height: 350px !important;
+}
+.atv-cards{
+  display: none;
+ 
+}
+.video-details{
+   margin-bottom: 30px
+}
+.video-details .atv-title{
+  margin-top: 30px;
+  font-size: 30px;
+  color: black
+}
+.video-details   .img-card img{
+ width: 100%
+}
+.card-hide{
+  display: none;
+}
+.footer{
+  margin-top: 30px
+}
+.atv-gün-ortası-haberler .card-flex{
+  height: auto;
+  z-index: 
+}
+.atv-gün-ortası-haberler .card-flex .card-info{
+      padding: 0 31px;
+}
+.atv-gün-ortası-haberler  .atv-title{
+  margin-top: 30px;
+  font-size: 30px;
+  color: black
+}
+/*---------------------------ziraat-kupasi--------------------*/
+.ziraat-header{
+  
+  background: #29313a url("https://i.tmgrup.com.tr/ztk/v2/i/shape-bg.jpg");
+}
+
+.ziraat-kupası-header{
+ display: flex;
+ 
+ align-items: center;
+}
+.ziraat-logo{
+  margin: auto;
+  text-align: center;
+}
+.ziraat-kupası-header-media{
+  color: white;
+
+}
+.ziraat-kupası-header-media i{
+  margin-right:20px;
+  color: white !important;
+
+}
+.ziraat-directions{
+  display: none;
+}
+.ziraat-menu nav ul{
+  list-style: none;
+  text-align: center;
+}
+.ziraat-menu nav ul li{
+  display: inline-block;
+  color: white;
+    padding: 10px 25px;
+    font-size: 17px;
+    text-align: center;
+}
+.ziraat-directions{
+  background: #ffd800
+}
+.ziraat-directions-info{
+  padding: 10px 90px;
+  text-align: center;
+}
+.ziraat-directions-info span{
+  margin: 0 10px;
+  color: black
+}
+.ziraat-directions-info i{
+  color: white
+}
+.ziraat-carousel{
+      background-color: #f4f4f5;
+}
+
+.matches-carousel{
+   background: #29313a url("https://i.tmgrup.com.tr/ztk/v2/i/shape-bg.jpg");
+   margin: 20px 0
+}
+.matches-carousel .carousel-item img{
+  position: relative;
+}
+.matches-carousel .carousel-item h1{
+  position: absolute;
+  bottom: 0;
+  background: rgba(197,42,42,.67);
+  left: 50%;
+  transform: translate(-50%);
+  padding: 10px 30px;
+  color: white !important;
+      width: 100%;
+    text-align: center;
+    font-size: 23px
+}
+.matches-info img{
+  float: left;
+  padding-bottom: 10px;
+  width: 250px
+ 
+}
+.matches-info p{
+  float: right;
+  color: white;
+  font-size: 14px;
+    padding: 5px 15px;
+}
+.match-box{
+  display: flex;
+  border-bottom: 1px solid #eee
+}
+.color{
+background:  #29313a
+}
+.match-cards .card{
+
+  background: #eee;
+   position: relative;
+   text-transform: capitalize;
+       height: 295px;
+}
+.match-cards{
+  margin-bottom: 30px
+}
+.match-cards .card img{
+  width: 100%
+}
+.match-cards .card i{
+  position: relative;
+      top: -80px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+   
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 25px;
+    transition: 0.5s;
+
+}
+.match-cards .card i:before{
+ position: absolute;
+    width: 50px;
+    height: 50px;
+    background: rgba(0,0,0,0.7);
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+   padding: 13px 16px;
+    border-radius: 50%;
+    transition: 0.5s
+}
+.match-cards .card i:hover:before{
+  background: red;
+  transform: scale(1.1);
+}
+.match-cards .card h6{
+  color: black;
+  font-weight: 600;
+  padding: 10px 15px;
+  text-transform: capitalize;
+  margin-top: -30px
+      
+}
+.match-cards .card span{
+      position: absolute;
+    top: 150px;
+    background: #c52a2a;
+    color: white;
+    padding: 5px 15px;
+    left: 10px;
+    font-size: 17px
+}
+.videolar-mobile .card:after{
+background: #c52a2a
+}
+.more-matches .card:after{
+  background: #c52a2a
+}
+.videolar-mobile{
+  margin-top: 40px;
+  display: none;
+}
+.matches-live{
+ background: #29313a url("https://i.tmgrup.com.tr/ztk/v2/i/shape-bg.jpg");
+   position: relative;
+   text-transform: capitalize;
+   margin: 40px 0
+
+}
+
+.big-matche{
+  position: relative;
+}
+.matches-live .video-info{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.0));
+    width: 100%;
+    padding: 20px;
+}
+body > section.matches-live > div > div > div .col-lg-8 .col-md-12 .col-sm-12 .img-col{
+  margin-top: 30px;
+  padding-bottom: 40px
+}
+.matches-live .img{
+  width: 100%
+}
+.big-matche{
+  margin-top: 30px
+}
+.matches-box img{
+  width: 100%
+}
+.matches-box i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+    background: rgba(0,0,0,0.7);
+    border-radius: 50%;
+  transition: 0.5s;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 51px;
+    padding: 0 10px;
+    cursor: pointer;
+    font-size: 25px
+}
+.matches-box i:hover{
+  background: #c52a2a;
+
+}
+.matches-box2 i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+    background: rgba(0,0,0,0.7);
+    border-radius: 50%;
+  transition: 0.5s;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 51px;
+    padding: 0 10px;
+    cursor: pointer;
+    font-size: 25px
+}
+.matches-box2 i:hover{
+  background: #c52a2a;
+
+}
+.matches-box2 img{
+  width: 100%;
+  margin-bottom: 35px;
+  cursor: pointer;
+}
+.matches-box{
+  position: relative;
+  cursor: pointer;
+}
+.matches-box2{
+  position: relative;
+}
+.matches-box:before{
+  position: absolute;
+  background:  linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.0));
+  content: "";
+  bottom: 0;
+  width: 100%;
+  height: 20%
+}
+.matches-box2{
+  position: relative;
+}
+.match-slider  .carousel-indicators li{
+  background: red;
+  height: 15px;
+
+}
+.match-slider .carousel-indicators{
+  position: absolute;
+  top: 105%
+}
+.matches-box .match-info{
+ 
+    position: absolute;
+    bottom: 0;
+    color: white;
+    padding: 0 30px;
+}
+.matches-box2 .match-info{
+ 
+    position: absolute;
+    bottom: 43px;
+    color: white;
+    padding: 0 10px;
+}
+.matches-box2 .match-info span{
+  background: #c52a2a;
+    color: white;
+    padding: 5px 10px;
+   
+    font-size: 14px;
+}
+.matches-box2 .match-info h6{
+  font-size: 14px;
+  margin-top: 10px
+}
+.matches-box .match-info span{
+
+    background: #c52a2a;
+    color: white;
+    padding: 5px 15px;
+   
+    font-size: 17px;
+}
+.matches-box .match-info h6{
+      margin-top: 10px;
+}
+.matches-box2:before{
+  position: absolute;
+  background:  linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.0));
+  content: "";
+  bottom: 35px;
+  width: 100%;
+  height: 20%
+}
+
+.none{
+  display: none;
+}
+.big-matche img{
+  width: 100%
+}
+.small-matche{
+  margin-top: 30px
+}
+.big-matche i{
+      position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 25px;
+    transition: 0.5s;
+}
+.big-matche i:before{
+ position: absolute;
+    width: 50px;
+    height: 50px;
+    background: rgba(0,0,0,0.7);
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+   padding: 13px 16px;
+    border-radius: 50%;
+    transition: 0.5s
+}
+.big-matche i:hover:before{
+  background: red;
+  transform: scale(1.1);
+}
+.match-cards .card h6{
+  color: black;
+  font-weight: 600;
+  padding: 10px 15px;
+  text-transform: capitalize;
+      
+}
+.match-cards .card:after{
+background-color: #c52a2a;
+}
+.small-matche .info{
+  color: white;
+  position: absolute;
+    bottom: 45px;
+    
+    background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.0));
+    width: 93%;
+    padding: 9px
+}
+.small-matche i{
+      position: relative;
+        top: -100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 25px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.small-matche span{
+  background: #c52a2a;
+    color: white;
+    padding: 3px 7px;
+  
+    font-size: 13px
+}
+.small-matche img{
+  cursor: pointer;
+  height: 202px
+}
+.small-matche i:before{
+ position: absolute;
+    width: 50px;
+    height: 50px;
+    background: rgba(0,0,0,0.7);
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+   padding: 13px 16px;
+    border-radius: 50%;
+    transition: 0.5s
+}
+.small-matche i:hover:before{
+  background: red;
+  transform: scale(1.1);
+}
+.small-matche h6{
+  font-size: 20px;
+  margin-top: 15px
+}
+
+
+.haberler2 .all-matches-video-menu {
+  border-bottom: none;
+   display: flex ;
+  align-items: center ;
+  justify-content: space-between;
+  margin-top: 50px 
+ 
+}
+.haberler2 .all-matches-video-menu small{
+  color: #355f83;
+  margin-right: 10px
+}
+.haberler2 .all-matches-video-menu  i{
+  color: #ffd800
+}
+.long-img{
+      height: 600px;
+    overflow: hidden;
+}
+.long-img img{
+   height: 500px;
+}
+.short-img .card{
+  height: auto;
+  background: #eee;
+  margin-bottom: 20px;
+  width: 100%
+}
+.short-img .card:after{
+background: #c52a2a
+}
+.short-img .card .info{
+margin: 20px;
+}
+.col-hide{
+  display: block;
+}
+.video-details .card{
+  margin-bottom: 30px
+}
+.row-2{
+  position: relative;
+}
+.col-responsive{
+  display: none;
+}
+.empty:before{
+  background:  #eee;
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  content: "";
+  top: 0;
+  right:0;
+  bottom: 0
+}
+.row-1{
+  margin-top: 60px
+}
+.haberler2{
+  margin-bottom: 30px
+}
+.match-table tr{
+  text-align: center;
+}
+
+.table .yellow{
+
+  background: yellow
+}
+
+.ziraat-menu-mobile i{
+  color: white;
+  font-size: 24px
+}
+.ziraat-menu-mobile{
+  background: #29313a url("https://i.tmgrup.com.tr/ztk/v2/i/shape-bg.jpg");
+}
+.menu-for-mobile{
+  display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+}
+.menu-for-mobile .first-img{
+  width: 100px
+}
+.menu-for-mobile .second-img{
+  width: 50px
+}
+.ziraat-menu-mobile .menu-ziraat{
+  background: rgba(28,36,43,.9);
+  position: fixed;
+  top:0;
+  left: -200%;
+  height: 150vh;
+  width: 352px;
+  z-index: 9999999999;
+  transition: 0.4s;
+
+}
+.ziraat-menu-mobile .menu-ziraat ul{
+  padding: 0 10px;
+  margin-top: 50px
+}
+.ziraat-menu-mobile .menu-ziraat ul li{
+  display: block;
+ border-bottom: 1px solid white;
+  padding: 20px 0
+}
+.ziraat-menu-mobile .menu-ziraat ul li a{
+   color: white;
+   font-weight: 600
+}
+.menu-ziraat{
+  position: relative;
+
+}
+.menu-ziraat i{
+  position: absolute;
+  right: 30px;
+  top: 30px
+}
+.ziraat-menu-mobile{
+display: none;
+}
+.more-matches .match-content .stuff{
+display: flex;
+width: 100%
+}
+.more-matches  .stuff .card{
+  margin-right: 10px;
+  background: #eee;
+      height: auto;
+      width: 450px
+   
+}
+.more-matches .match-content .stuff .card .info{
+  padding: 15px
+}
+.more-matches .match-content{
+  display: flex;
+ margin: auto;
+      width: 100%;
+
+}
+.match-content{
+  overflow: hidden;
+  
+}
+.ziraat-carousel .item{
+  display: block;
+ 
+ 
+}
+.all-img-carousel{
+  display: flex;
+  align-items: center;justify-content: space-between;
+}
+.ziraat-carousel .carousel-img{
+
+  align-items: center;
+  justify-content: space-between;
+
+ display: block;
+}
+
+.ziraat-carousel .owl-item{
+width: auto !important;
+}
+.ziraat-carousel  .owl-dot .acitve{
+  background: red !important
+}
+.ziraat-carousel .owl-theme .owl-dots .owl-dot span{
+  background: #c52a2a
+}
+.ziraat-carousel .carousel-img img{
+ width: 45px !important;
+ margin: auto;
+}
+
+.ziraat-carousel .owl-theme .owl-nav{
+  display: none;
+}
+ .all-matches-video ul{
+  display: flex;
+  list-style: none;
+  border-bottom: 1px solid #00bab3
+ }
+ .all-matches-video ul a{
+  color: black;
+      margin-right: 37px;
+  font-size: 15px;
+  margin-top: 10px;
+  text-transform: capitalize;
+  position: relative;
+ }
+  .all-matches-video ul a:before{
+        content: "";
+    background: #00bab3;
+    height: 100%;
+    width: 1px;
+    position: absolute;
+    left: -10px;
+
+  }
+  .all-matches-video-menu h6{
+    
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    text-transform: capitalize;
+  }
+    .all-matches-video-menu h6:before{
+     position: absolute;
+    background: #ffd800;
+    left: -40px;
+    width: 30px;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0, 39% 100%, 0% 100%);
+    content: "";
+
+    }
+  .all-matches-video-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+   .all-matches-video ul a.active{
+    color: #00bab3!important;
+    font-weight: 600
+   }
+ .card-match-flex{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+        background: #eee;
+        margin-top: 30px
+ }
+  .card-match-flex .card-img{
+    width: 274px;
+  }
+  .match-cards{
+  display: block;
+}
+   .card-match-flex .card-info{
+        padding: 0 10px;
+   }
+     .card-match-flex .card-info h6{
+      font-size: 15px
+     }
+     .match-flex {
+      display: none ;
+     }

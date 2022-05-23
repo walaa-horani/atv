@@ -1,0 +1,580 @@
+@media(max-width:576px){
+
+.full-row-cards .img-card:after{
+	width: 0
+}
+.series .card{
+  width: 100%
+
+  }
+  .footer {
+	text-align: center !important;
+}
+  .menu2 ul li ul{
+	position: absolute;
+    background: white;
+    top: 0;
+    padding: 15px 26px 15px;
+    left: 0;
+    z-index: 999999999999999999;
+    height: 100vh;
+	width: 270px;
+
+  }
+  .signin{
+	padding: 0 16px;
+  }
+.atv-bugun .owl-carousel .owl-item img{
+	display: none;
+}
+.atv-bugun .item:before{
+	width: 0
+}
+.live .content{
+	
+	float: left;
+
+}
+.card-hide{
+	display: none;
+}
+
+.block{
+	display: none;
+}
+.atv-bugun .owl-nav{
+	display: none;
+}
+.mobile-footer{
+	display: block;
+}
+.live .live-img{
+	
+}
+.live .live-img img{
+	float: right;
+	width: 150px
+	
+}
+.classic-info {
+	display: block;
+	text-align: center;
+
+}
+.classic-info h6{
+	margin-left: 0
+}
+.classic-series{
+	margin: 10px auto
+}
+.classic-info h6:before{
+	width: 0
+}
+.classic  .final{
+	display: none;
+}
+.col-block{
+	display: none;
+}
+
+.series .card img{
+	width: 100%
+}
+.full-row-cards .flex2{
+display: none;
+}
+.full-row-cards .flex1{
+display: none;
+}
+.hide-card{
+	display: block;
+}
+.img-logo img{
+
+    top: 8px;
+    width: 51px;
+    z-index: 999;
+}
+.güncel-info h6{
+	    font-size: 22px;
+}
+.white-menu ul li{
+	font-size: 16px;
+}
+.black-menu{
+	display: none;
+}
+.card-hide{
+	display: block;
+}
+.colflex-hide{
+	display: none;
+}
+.hide-col{
+	display: block;
+}
+.show-col{
+  display: none;
+}
+}
+@media(max-width:767px){
+	/*--------------------------------------------ziraat kupasi---------------------*/
+.ziraat-kupası-header, .ziraat-menu{
+	display: none;
+}
+.all-matches-video{
+	display: none;
+}
+.videolar-mobile .accordion-body .card{
+	background: #eee
+}
+.ziraat-menu-mobile{
+	display: block;
+}
+.match-flex{
+	display: block;
+}
+.card-match-flex .card-img{
+	width: 100%
+}
+.card-match-flex .card-info h6{
+	       padding: 10px 6px;
+    font-size: 15px;
+}
+.matches-carousel .carousel-item h1{
+	font-size: 20px
+}
+.card-match-flex{
+	display: block;
+}
+.card-match-flex .card-img img{
+	width: 100%
+}
+.card-match-flex .card-info{
+	height: 100px
+}
+.card-match-flex{
+	 
+    width: 100%;
+
+}
+
+.match-cards{
+	display: none;
+}
+.col-hide{
+	display: none;
+}
+.col-responsive{
+	display: block;
+}
+.more-matches .match-content{
+width: 100%
+}
+.videolar-mobile{
+	display: block;
+}
+.videolar-mobile .accordion-body .card{
+	margin: 30px auto ;
+	width: 100%;
+	height: auto;
+}
+.videolar-mobile .accordion-body .card h6{
+	text-align: center;
+	margin-top: 10px
+}
+.more-matches .match-content .stuff{
+	display: block;
+}
+
+.more-matches{
+width: 340px;
+    margin: auto;
+}
+.more-matches .match-content .more-matches{
+    width: 66%;
+}
+
+.more-matches .match-content .stuff .card .info h6{
+font-size: 12px;
+padding: 10px
+}
+.all-matches-video-menu h6{
+	display: none;
+}
+.all-matches-video ul{
+	display: block;
+	border-bottom: none;
+	    margin-top: 20px;
+}
+.all-matches-video ul li{
+	display: block;
+}
+.all-matches-video-menu{
+	display: block;
+}
+.more-matches .stuff .card{
+	margin-bottom: 30px
+}
+.match-box{
+	display: block;
+}
+.matches-info img{
+	float: none;
+	width: 100%
+}
+.matches-info p{
+	float: none;
+	text-align: center;
+	font-size: 24px
+}
+.match-slider{
+	margin-bottom: 30px
+}
+.empty:before{
+	width: 0
+}
+header{
+	display: none;
+}
+
+/*---------------------------------------------home page-------------------------------*/
+.canlı-yayın i{
+   height: 27.5px;
+}
+.slider{
+margin-top: 60px
+}
+.slider .carousel-control-prev span, .carousel-control-next span{
+	width: 20px;
+	height: 20px
+}
+.atv-bugun .item-text{
+	margin-top: 20px
+}
+.atv-bugun .item-text span{
+	font-size: 25px
+}
+.atv-bugun .item-text p{
+	font-size: 15px
+}
+.atv-bugun .slider .item:before{
+	width: 0
+}
+.atv-bugun .item{
+	    width: 210px ;
+}
+.series .card{
+	margin: 30px auto
+}
+.live-text h1{
+	font-size: 23px
+}
+.live-text h6{
+	font-size: 17px
+}
+.live-videos img{
+	width: 100px
+}
+.live-series{
+	display: block;
+}
+.milyoner{
+	text-align: center;
+}
+.content-img img{
+	width: 100%
+}
+.content-series-flex{
+ margin-top: 30px
+}
+.content-series img{
+	width: auto;
+	
+}
+.milyoner{
+	width: 100%;
+	margin: auto;
+
+}
+.content-img{
+	width: 200px
+}
+.milyoner img{
+	width: 100%
+}
+.classic-diziler{
+	display: flex;
+	flex-wrap: wrap;
+	position: unset;
+	margin-left: 10px
+}
+.klasik-img{
+	width: 250px
+}
+.thumbing{
+	width: 100px
+}
+.mobile-footer{
+	display: block;
+}
+.col-block{
+	display: none;
+}
+.content-series h3{
+	font-size: 20px
+}
+.content-img img{
+	margin-top: 80px
+}
+.mobile-menu{
+	display: flex;
+}
+.card-flex .card-info span{
+	font-size: 11px;
+	padding: 2px 4px
+}
+.card-flex .card-info{
+	padding: 27px;
+}
+.hide-img{
+	display: none;
+}
+.hide-img{
+	display: none;
+}
+.milyoner-hide{
+	display: none;
+}
+.arşiv-menu {
+	display: none;
+}
+.black-menu{
+	margin-top: 61px
+}
+.side-menu{
+	  
+	    top: 57px
+}
+.white-menu{
+	margin-top: 75px;
+}
+.black-menu ul li{
+	padding: 10px 9px;
+}
+.eşkiya-date .card{
+	display: none;
+}
+.hide-card-sm{
+	display: none;
+}
+.eşkiya-casslic .klasik-img:after{
+	width: 40px;
+	height: 40px
+}
+.classic-series{
+	margin: auto;
+}
+.classic-info h6{
+	width: auto;
+}
+.klasik-img{
+	width: 100%
+}
+.classic-diziler{
+	margin: auto;
+}
+.card-flex .card-info h6{
+	font-size: 18px
+}
+.black-menu ul li{
+    padding: 10px 5px;
+}
+.card-hide{
+	display: none;
+}
+ .card-flex .card-info{
+width: 100%
+}
+
+.hide-col{
+	display: block;
+}
+.show-col{
+  display: none;
+}
+}
+@media(min-width:768px) and (max-width:991px){
+.ziraat-kupası-header, .ziraat-menu{
+	display: none;
+}
+.ziraat-menu-mobile{
+	display: block;
+}
+.match-flex{
+	display: block;
+}
+.match-cards{
+	display: none;
+}
+.col-hide{
+	display: none;
+}
+.col-responsive{
+	display: block;
+}
+
+.more-matches .match-content .stuff{
+	display: flex;
+}
+.more-matches .stuff .card{
+	    height: 200px;
+}
+.eşkiya-casslic .klasik-img:after{
+	width: 40px;
+	height: 40px
+}
+.eşkiya-date .card{
+	display: none;
+}
+.more-matches .match-content{
+	width: 87%
+}
+.black-menu{
+	margin-top: 61px
+}
+.card-match-flex .card-img{
+	width: 360px;
+}
+.card-match-flex .card-info{
+	    padding: 0 73px;
+}
+.more-matches .match-content .stuff h6{
+	font-size: 13px;
+}
+.all-matches-video ul a{
+	    margin-right: 15px;
+	    font-size: 14px
+}
+.all-matches-video-menu h6{
+	font-size: 20px;
+}
+.all-matches-video ul{
+	    margin-right: 64px;
+}
+.all-matches-video-menu h6:before{
+	width: 0
+}
+.empty:before{
+	width: 0
+}
+header{
+	display: none;
+}
+.mobile-menu{
+	display: flex;
+}
+
+.canlı-yayın i{
+   height: 27.5px;
+}
+.slider{
+margin-top: 60px
+}
+.live-series .milyoner img{
+  width: 250px
+}
+.content-img img{
+	width: 180px
+}
+.content-series{
+	text-align: center;
+}
+.klasik-img{
+	width: 300px;
+}
+.thumbing{
+	width: 90px
+}
+
+.mobile-footer{
+	display: block;
+}
+.col-block{
+	display: none;
+}
+.hide-col{
+	display: none;
+}
+.show-col{
+  display: block;
+}
+.flex-img img{
+	width: 100px
+}
+.img-small{
+	    width: 165px;
+	      
+}
+ .arşiv-menu ul{
+	    margin-top: 60px ;
+}
+.arşiv-menu ul li{
+	padding: 6px
+}
+.black-menu ul li{
+	padding: 10px
+}
+.classic-info{
+	display: block;
+}
+.classic-info h6{
+	width: auto;
+}
+.card-hide{
+	display: none ;
+}
+
+}
+@media(min-width:992px) and (max-width:1199px){
+.ziraat-kupası-header, .ziraat-menu{
+	display: block;
+}
+.ziraat-menu-mobile{
+	display: none;
+}
+.match-flex{
+	display: none;
+}
+
+
+.more-matches .stuff .card{
+	    height: 300px;
+	    margin-top: 30px
+}
+.ziraat-menu nav ul li{
+  display: inline-block;
+  color: white;
+    padding: 10px 7px;
+    font-size: 13px;
+    text-align: center;
+}
+.more-matches .match-content .stuff{
+	display: flex;
+}
+.mobile-menu{
+	display: none;
+}
+
+.thumbing{
+	width: 100px
+}
+
+/*---------------------------------------------home page-------------------------------*/
+}
+
+@media(min-width:1200px){
+/*---------------------------------------------home page-------------------------------*/
+
+
+}
